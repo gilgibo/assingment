@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="40dp"
+    android:background="#fbfd8b"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="키와 몸무게를 입력하세요" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="키(cm)" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_marginBottom="10dp"
+            android:background="#fbd7d3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="숫자 입력" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="체중(kg)" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_marginBottom="20dp"
+            android:background="#fbd7d3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="숫자 입력" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:background="#832b03"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="BMI 계산 결과" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과가 없습니다" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
